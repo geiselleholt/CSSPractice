@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/index.css" />
+  </head>
+  <body>
+    <nav>
+      <img src="../images/joinUs.png" alt="pikachu" height="50" />
+    </nav>
+    <h1 id="titleBanner">Registration Page</h1>
+
+    <form id="form">
+      <label for="firstName">
+        <input
+          type="text"
+          placeholder="Enter Your First Name"
+          name="firstName"
+          id="firstName"
+          required
+        />
+      </label>
+
+      <label for="lastName">
+        <input
+          placeholder="Enter Your Last Name"
+          name="lastName"
+          id="lastName"
+          required
+        />
+      </label>
+      <label for="Email">
+        <input
+          type="email"
+          placeholder="Enter Your Email"
+          name="email"
+          id="email"
+          required
+        />
+      </label>
+      <hr />
+
+      <label for="Username">
+        <input
+          type="username"
+          placeholder="Create a Username"
+          name="username"
+          id="username"
+          required
+        />
+      </label>
+
+      <label for="password">
+        <input
+          type="password"
+          placeholder="Create Your Password"
+          name="password"
+          id="password"
+          required
+        />
+      </label>
+
+      <label for="password">
+        <input
+          type="password"
+          placeholder="Confirm Your Password"
+          name="confirmPassword"
+          id="confirmPassword"
+          required
+        />
+      </label>
+
+      <label for="gender">
+        Gender
+        <label>
+          <input type="radio" name="gender" id="female" />
+          Female
+        </label>
+        <input type="radio" name="gender" id="male" />
+        Male
+      </label>
+      <label>
+        Date of Birth
+        <input type="date" name="dob" id="dob" />
+      </label>
+      <label for="register">
+        <input type="submit" name="register" id="register" value="Register" />
+      </label>
+
+      <footer>
+        <p id="copyRight">
+          &copy; 2021 by
+          <a href="https://www.linkedin.com/in/geiselle-holt/">Geiselle Holt</a>
+        </p>
+        <p id="footerMessage">
+          Already have an account? <a href="./index.html">Sign In</a>
+        </p>
+      </footer>
+    </form>
+  </body>
+</html>

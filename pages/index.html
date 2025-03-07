@@ -1,11 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login and Reistration</title>
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Mystery+Quest&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <img src="../images/I Love You GIF.gif" alt="dancing whale with hea" />
+    </nav>
+    <div id="form">
+      <form>
+        <h1 id="titleBanner">Login</h1>
+        <label for="Username">
+          <input
+            type="text"
+            placeholder="Enter Your Username"
+            name="username"
+            id="username"
+            required
+          />
+        </label>
+
+        <label for="password">
+          <input
+            type="password"
+            placeholder="Enter Your Password"
+            name="password"
+            id="password"
+            required
+          />
+        </label>
+
+        <label for="confirmPassword">
+          <input
+            type="password"
+            placeholder="Confirm Your Password"
+            name="confirmPassword"
+            id="password"
+            required
+          />
+        </label>
+
+        <label for="register">
+          <input type="submit" name="register" id="register" value="Sign In" />
+        </label>
+        <label for="rememberMe">
+          <input type="checkbox" name="rememberMe" id="rememberMe" />Remember Me
+        </label>
+      </form>
+    </div>
+    <hr />
+    <div class="signInWith">
+      <p>Sign in with</p>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/">
+            <img src="../images/facebookLogo.png" alt="facebook logo" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.google.com/">
+            <img src="../images/googleLogo.png" alt="google logo" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.microsoft.com/">
+            <img src="../images/microsoftLogo.png" alt="microsoft logo" />
+          </a>
+        </li>
+      </ul>
+    </div>
+    <footer>
+      <p id="copyRight">
+        &copy; 2021 by
+        <a href="https://www.linkedin.com/in/geiselle-holt/">Geiselle Holt</a>
+      </p>
+      <p id="footerMessage">
+        Don't have an account?
+        <a href="register.html">Register</a>
+      </p>
+    </footer>
+  </body>
 </html>
