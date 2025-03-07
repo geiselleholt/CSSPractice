@@ -8,13 +8,13 @@ nav {
 }
 
 #titleBanner {
+
   font-family: "Emilys Candy", serif;
   font-weight: bolder;
   text-align: center;
-  margin: auto;
   font-size: 3rem;
   background: linear-gradient(
-    to left,
+    to right,
     #ef5350,
     #f48fb1,
     #7e57c2,
@@ -34,11 +34,12 @@ li a img:hover {
 }
 
 body {
-  background-image: url("../images/rainbow.png");
+  background-image: url("../images/rainbow3.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Emilys Candy", serif;
+  color: white;
 }
 
 .emilys-candy-regular {
@@ -59,7 +60,7 @@ input {
   margin: auto;
   margin-bottom: 1rem;
   margin-top: 1.2rem;
-  width: 50%;
+  width: 30%;
   border: 2px solid purple;
   border-radius: 5px;
   padding: 0.5rem;
@@ -95,7 +96,7 @@ footer {
   /* background-color: radial-gradient(pink, purple); */
   background-color: purple;
   color: white;
-text-align: center;
+  text-align: center;
   padding: 10px;
   position: fixed;
   bottom: 10px;
@@ -125,5 +126,11 @@ a:hover {
 }
 
 a {
-  color: yellow ;
+  color: yellow;
+}
+
+ul li {
+  display: inline;
+  justify-content:center;
+
 }
