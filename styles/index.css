@@ -8,7 +8,6 @@ nav {
 }
 
 #titleBanner {
-
   font-family: "Emilys Candy", serif;
   font-weight: bolder;
   text-align: center;
@@ -27,6 +26,7 @@ nav {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: none;
 }
 
 li a img:hover {
@@ -40,6 +40,7 @@ body {
   background-repeat: no-repeat;
   font-family: "Emilys Candy", serif;
   color: white;
+  text-shadow: 0px 2px 1px black;
 }
 
 .emilys-candy-regular {
@@ -69,8 +70,6 @@ input {
 input[type="submit"] {
   background-color: purple;
   color: white;
-  border: none;
-  border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
 }
@@ -98,7 +97,6 @@ footer {
   color: white;
   text-align: center;
   padding: 10px;
-  position: fixed;
   bottom: 10px;
   width: 90%;
   height: 20px;
@@ -117,7 +115,6 @@ img {
 
 #footerMessage {
   font-size: 15px;
-  /* float: right; */
   margin: auto;
 }
 
@@ -131,6 +128,29 @@ a {
 
 ul li {
   display: inline;
-  justify-content:center;
+  justify-content: center;
+}
 
+#rememberMeDiv {
+  display: flex;
+  justify-content: center;
+  font-size: small;
+}
+
+/* #rememberMeCheckbox {
+padding: 0px;
+} */
+
+#rememberMeLabel {
+  position: absolute;
+}
+
+#signInWith {
+  display: flex;
+  justify-content: center;
+}
+
+#signInWith p {
+  margin-top: 40px;
+  font-size: 1.5rem;
 }

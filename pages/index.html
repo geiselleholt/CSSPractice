@@ -19,47 +19,40 @@
     <div id="form">
       <form>
         <h1 id="titleBanner">💗Login💗</h1>
-        <label for="Username">
-          <input
-            type="text"
-            placeholder="Enter Your Username"
-            name="username"
-            id="username"
-            required
-          />
-        </label>
+        <input
+          type="text"
+          placeholder="Enter Your Username"
+          name="username"
+          id="username"
+          required
+        />
 
-        <label for="password">
-          <input
-            type="password"
-            placeholder="Enter Your Password"
-            name="password"
-            id="password"
-            required
-          />
-        </label>
+        <input
+          type="password"
+          placeholder="Enter Your Password"
+          name="password"
+          id="password"
+          required
+        />
 
-        <label for="confirmPassword">
-          <input
-            type="password"
-            placeholder="Confirm Your Password"
-            name="confirmPassword"
-            id="password"
-            required
-          />
-        </label>
+        <input
+          type="password"
+          placeholder="Confirm Your Password"
+          name="confirmPassword"
+          id="password"
+          required
+        />
 
-        <label for="register">
-          <input type="submit" name="register" id="register" value="Sign In" />
-        </label>
-        <label for="rememberMe">
-          <input type="checkbox" name="rememberMe" id="rememberMe" />Remember Me
-        </label>
+        <input type="submit" name="register" id="register" value="Sign In" />
+        <div id="rememberMeDiv">
+          <input type="checkbox" name="rememberMe" id="rememberMeCheckbox" />
+          <label for="rememberMe" id="rememberMeLabel"> Remember Me</label>
+        </div>
       </form>
     </div>
     <hr />
-    <div>
-      <p class="signInWith">Sign in with</p>
+    <div id="signInWith">
+      <p >Sign in with</p>
       <ul>
         <li>
           <a href="https://www.facebook.com/">
