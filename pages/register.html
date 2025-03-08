@@ -3,43 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="../styles/index.css" />
   </head>
   <body>
     <nav>
-      <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWJyam9nNGl3aWt5eDJraWVlM2Y2MGxncHI0cGVpYmM4djlzZngzNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XU2CBWgts1dCuUDcIG/giphy.gif" alt="pikachu" height="50" />
+      <img
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWJyam9nNGl3aWt5eDJraWVlM2Y2MGxncHI0cGVpYmM4djlzZngzNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XU2CBWgts1dCuUDcIG/giphy.gif"
+        alt="pikachu"
+        height="50"
+      />
     </nav>
-    <h1 id="titleBanner">Registration Page</h1>
-
-    <label>
-      <input
-        type="text"
-        placeholder="Enter Your First Name"
-        name="firstName"
-        id="firstName"
-        required
-      />
-    </label>
-
-    <label>
-      <input
-        placeholder="Enter Your Last Name"
-        name="lastName"
-        id="lastName"
-        required
-      />
-    </label>
-    <label>
-      <input
-        type="email"
-        placeholder="Enter Your Email"
-        name="email"
-        id="email"
-        required
-      />
-    </label>
-    <hr />
+    <h1 id="titleBanner">🌟Registration🌟</h1>
 
     <label>
       <input
@@ -71,38 +46,69 @@
       />
     </label>
 
-    <label>
-      <ul>
-      <li>Gender
-      <label>
-        <input type="radio" name="gender" id="female" />
-        Female
-      </li>
-      </label>
+    <hr />
+    <div id="lowerSection">
+      <section id="section2">
+        <label>
+          <input
+            type="text"
+            placeholder="Enter Your First Name"
+            name="firstName"
+            id="firstName"
+            required
+          />
+        </label>
 
-      <li>
-      <input type="radio" name="gender" id="male" />
-      Male
-    </li>
-    </ul>
-    </label>
-    <label>
-      Date of Birth
-      <input type="date" name="dob" id="dob" />
-    </label>
-    <label>
-      How
-      did
-      you
-      hear
-      about
-      us?
-      <select id="referal">
+        <label>
+          <input
+            placeholder="Enter Your Last Name"
+            name="lastName"
+            id="lastName"
+            required
+          />
+        </label>
+        <label>
+          <input
+            type="email"
+            placeholder="Enter Your Email"
+            name="email"
+            id="email"
+            required
+          />
+        </label>
+      </section>
+      <section id="section3">
+        <ul id="gender">
+          <li><p>Gender</p></li>
+          <li>
+            <label>
+              <input type="radio" name="gender" id="female" />
+              Female
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" name="gender" id="male" />
+              Male
+            </label>
+          </li>
+        </ul>
+        <label id="dobLabel">
+          Date of Birth
+          <input type="date" name="dob" id="dob" />
+        </label>
+
+      </section>
+    </div>
+    <label id="referal">
+      How did you hear about us?
+      <select>
         <option value="friendFamily">Friend or Family</option>
         <option value="google">Google</option>
         <option value="facebook">Facebook</option>
         <option value="other">Other</option>
       </select>
+    </label>
     <label>
       <input type="submit" name="register" id="register" value="Register" />
     </label>
